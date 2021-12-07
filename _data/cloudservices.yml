@@ -2,18 +2,27 @@
 services:
   - category: Compute
     categoryurl:
-    subcategory: Shared Web hosting
+    subcategory: Web Hosting
     subcategoryurl:
     service:
       - aws:
+          - name: AWS Lightsail
+            ref: https://aws.amazon.com/lightsail/
+            icon: none.png
           - name: AWS Amplify
             ref: https://aws.amazon.com/amplify/hosting/
             icon: Arch_AWS-Amplify_64.png
       - azure:
-          - name: Azure shared App Services
+          - name: Azure Web Apps
             ref: https://azure.microsoft.com/en-in/services/app-service/web/
             icon: Azure App Service - Web App (was Websites).png
+          - name: Azure Static Web Apps
+            ref: https://azure.microsoft.com/en-in/services/app-service/static/
+            icon: none.png
       - google:
+          - name: Google Compute Engine
+            ref: https://cloud.google.com/compute
+            icon: none.png
           - name: Firebase
             ref: https://firebase.google.com/docs/hosting
             icon: Cloud-Firebase.png
@@ -22,8 +31,8 @@ services:
             ref: https://www.ibm.com/cloud/websites
             icon: ibmcloud.png
       - oracle:
-          - name:
-            ref:
+          - name: Oracle Site Builder
+            ref: https://oracle.com/content-management/site-builder/
             icon: none.png
       - alibaba:
           - name: Web Hosting
@@ -102,8 +111,8 @@ services:
             ref: https://docs.microsoft.com/en-us/azure/virtual-machines/workloads/sap/hana-overview-architecture
             icon: Azure Virtual Machine.png
       - google:
-          - name:
-            ref:
+          - name: Google Cloud Bare Metal
+            ref: https://cloud.google.com/bare-metal
             icon: none.png
       - ibm:
           - name: Bare Metal Servers
@@ -183,19 +192,19 @@ services:
             ref:  https://azure.com/hpc/
             icon: architecture_hpc_azure.png
       - google:
-          - name:  High performance computing
+          - name: High performance computing
             ref:  https://cloud.google.com/solutions/hpc
             icon: none.png
       - ibm:
-          - name:  IBM Spectrum LSF
+          - name: IBM Spectrum LSF
             ref:  https://cloud.ibm.com/catalog/content/terraform-1623200063-71606cab-c6e1-4f95-a47a-2ce541dcbed8-global
             icon: Spectrum_icon.png
-          - name:  IBM Spectrum Symphony
+          - name: IBM Spectrum Symphony
             ref:  https://cloud.ibm.com/catalog/content/terraform-1627942334-78300480-b376-4185-9812-b7ae00d82765-global
             icon: Symphony_icon.png
       - oracle:
-          - name:  
-            ref:  
+          - name: Oracle Cloud HPC Compute
+            ref:  https://www.oracle.com/cloud/hpc/
             icon: none.png
       - alibaba:
           - name: 
@@ -205,6 +214,39 @@ services:
           - name:  
             ref:  
             icon: none.png
+ - category: Compute
+    categoryurl:
+    subcategory: GPU Computing
+    subcategoryurl:
+    service: 
+      - aws:
+          - name: Amazon EC2 P4 instances
+            ref: https://aws.amazon.com/ec2/instance-types/p4/
+            icon: none.png
+      - azure:
+          - name: Azure GPU enabled virtual machines (N-Series)
+            ref:  https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-gpu
+            icon: none.png
+      - google:
+          - name: Google Cloud GPUs 
+            ref:  https://cloud.google.com/gpu
+            icon: none.png
+      - ibm:
+          - name: IBM Cloud GPUs
+            ref:  https://www.ibm.com/cloud/gpu
+            icon: none.png
+      - oracle:
+          - name: GPU-Accelerated Compute
+            ref:  https://www.oracle.com/cloud/compute/gpu.html
+            icon: none.png
+      - alibaba:
+          - name: Elastic GPU Service
+            ref: https://www.alibabacloud.com/product/gpu
+            icon: none.png
+      - huawei:
+          - name:  
+            ref:  
+            icon: none.png        
   - category: Compute
     categoryurl:
     subcategory: Container Registration Service
