@@ -45,25 +45,25 @@ intro_paragraph: "[Jekyll Netlify
 	            <th style="width:7%">Category</th>
             <th style="width:10%">Service</th>
             <th>
-              <img  src="assets/img/logo/aws.png" alt="Amazon AWS" width="100" class="header-img"/>
+              <img  src="https://pbs.twimg.com/profile_images/1388165108786884619/ZnSwt6Qb_400x400.jpg" alt="Amazon AWS" width="100" class="header-img"/>
             </th>
             <th>
-              <img  src="assets/img/logo/msazure.svg" alt="Microsoft Azure Log" width="100" class="header-img"/>
+              <img  src="https://pbs.twimg.com/profile_images/1268207800313774080/KF9pXfXU_400x400.jpg" alt="Microsoft Azure Log" width="100" class="header-img"/>
             </th>
             <th>
-              <img  src="assets/img/logo/google.svg" alt="Google Cloud Platform Logo" width="100" class="header-img" />
+              <img  src="https://pbs.twimg.com/profile_images/1190319303041724417/1a61e4pu_400x400.jpg" alt="Google Cloud Platform Logo" width="100" class="header-img" />
             </th>
             <th>
-              <img  src="assets/img/logo/IBM-Cloud-svg-lockup-color8.svg"  alt="IBM Cloud Logo" width="100" class="header-img" />
+              <img  src="https://pbs.twimg.com/profile_images/1367195110224650242/RCjpV_cA_400x400.jpg"  alt="IBM Cloud Logo" width="100" class="header-img" />
             </th>
             <th>
-              <img  src="assets/img/logo/oracle.png" alt="Oracle Cloud Logo" width="100" class="header-img"/>
+              <img  src="https://pbs.twimg.com/profile_images/1171372058892283904/tYAN0C0c_400x400.jpg" alt="Oracle Cloud Logo" width="100" class="header-img"/>
             </th>
             <th>
-              <img src="assets/img/logo/alibaba.png" alt="Alibaba Cloud Logo" width="100" class="header-img"/>
+              <img src="https://pbs.twimg.com/profile_images/1108554736398004224/Za8pS-nr_400x400.png" alt="Alibaba Cloud Logo" width="100" class="header-img"/>
             </th>
 			<th>
-              <img  src="assets/img/logo/huawei.png" alt="Huawei Cloud" width="100" class="header-img"/>
+              <img  src="https://pbs.twimg.com/profile_images/1001040049293508608/kk-AIfb4_400x400.jpg" alt="Huawei Cloud" width="100" class="header-img"/>
             </th>
   </tr>
 	{% for item in site.data.cloudservices.services %}
