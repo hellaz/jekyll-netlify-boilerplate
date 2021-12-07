@@ -9,7 +9,7 @@
 body {
   height: 100vh;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 0 1fr 0;
   grid-template-columns:
     [full-start] minmax(1rem, 1fr)
     [main-start] minmax(0, 52rem) [main-end]
