@@ -37,9 +37,6 @@ intro_paragraph: "[Jekyll Netlify
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552c144e4f497fe9"></script>
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
-<!-- Include the script that builds the page and powers Netlify CMS -->
-<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-
 
 <table id="comparison">
   <tr align="center" class="header">
