@@ -3,12 +3,9 @@ layout: home
 title: Welcome
 permalink: /
 section: home
-intro_paragraph: >
-  [Jekyll Netlify
+intro_paragraph: "[Jekyll Netlify
   Boilerplate](https://github.com/danurbanowicz/jekyll-netlify-boilerplate)
-  provides the basics to get a fast, static website deployed on Netlify.
-  Features [Netlify CMS](https://www.netlifycms.org), responsive CSS Grid
-  layout, sample pages and posts, and a continuous deployment workflow.
+  provides the basics to get a fast, static website deployed on Netlify."
 ---
 <head>
     <meta charset="utf-8">
@@ -37,10 +34,9 @@ intro_paragraph: >
     <meta name="twitter:title" content="A public Cloud Compareison : AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
     <title>AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba | A detailed comparison and mapping between various cloud services</title>
 </head>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-552c144e4f497fe9"></script>
+
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
-
 
 <table id="comparison">
   <tr align="center" class="header">
