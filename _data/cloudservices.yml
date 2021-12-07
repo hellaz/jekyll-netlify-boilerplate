@@ -96,7 +96,6 @@ services:
           - name: Huawei Cloud Elastic Cloud Server
             ref: https://www.huaweicloud.com/intl/en-us/product/ecs.html
             icon: ecs.png
-
   - category: Compute
     categoryurl:
     subcategory: Bare Metal Server
@@ -214,7 +213,7 @@ services:
           - name:  
             ref:  
             icon: none.png
- - category: Compute
+  - category: Compute
     categoryurl:
     subcategory: GPU Computing
     subcategoryurl:
