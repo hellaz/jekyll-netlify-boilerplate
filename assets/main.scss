@@ -3,6 +3,7 @@
 ---
 $content-width: 100%;
 @import "main";
+@import "minima";
 
 
 
@@ -30,7 +31,7 @@ body {
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
 
 /** `main` element */
-main { display: block; width: 100% /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
+main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
 
 /** Images */
 // img { max-width: 100%; vertical-align: middle; }
