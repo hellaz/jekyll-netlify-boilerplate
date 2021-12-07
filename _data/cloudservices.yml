@@ -358,14 +358,14 @@ services:
       - google:
           - name:  
             ref:  
-            icon:  none.png
+            icon: none.png
       - ibm:
           - name: IBM Cloud Code Engine
             ref: https://cloud.ibm.com/codeengine
             icon: codeEngineBright.svg
       - oracle:
-          - name:  
-            ref:  
+          - name: Oracle Container Engine for Kubernetes (OKE)  
+            ref:  https://www.oracle.com/cloud-native/container-engine-kubernetes/
             icon: none.png
       - alibaba:
           - name:  
@@ -472,8 +472,8 @@ services:
             ref:
             icon: none.png
       - oracle:
-          - name:
-            ref:
+          - name: Oracle Cloud Infrastructure Container Registry
+            ref: https://www.oracle.com/cloud-native/container-registry/
             icon: none.png
       - alibaba:
           - name:
@@ -508,8 +508,8 @@ services:
             ref: https://cloud.ibm.com/docs/vpc-on-classic-vsi?topic=vpc-on-classic-vsi-getting-started
             icon: virtual-server.png
       - oracle:
-          - name:
-            ref:
+          - name: Oracle Cloud Infrastructure Compute
+            ref: https://docs.oracle.com/en-us/iaas/Content/Compute/Concepts/dedicatedvmhosts.htm
             icon: none.png
       - alibaba:
           - name: Simple Application Server
@@ -519,7 +519,6 @@ services:
           - name: Hyper Elastic Cloud Server
             ref: https://www.huaweicloud.com/product/hecs.html
             icon: ecs.png
-
   - category: Compute
     categoryurl:
     subcategory: Auto Scaling
@@ -570,8 +569,8 @@ services:
             ref: https://azure.microsoft.com/en-in/services/batch/
             icon: Azure Batch.png
       - google:
-          - name: Preemptible VMs
-            ref: https://cloud.google.com/preemptible-vms/
+          - name: Spot VMs
+            ref: https://cloud.google.com/spot-vms
             icon: Compute-Engine.png
       - ibm:
           - name: IBM Cloud Code Engine
@@ -833,7 +832,6 @@ services:
           - name: Object Storage Service
             ref: https://www.huaweicloud.com/intl/en-us/product/obs.html
             icon: obs.png
-
   - category: Storage
     categoryurl:
     subcategory: Hybrid Storage/Storage Gateway
@@ -867,7 +865,6 @@ services:
           - name: Cloud Storage Gateway
             ref: https://www.huaweicloud.com/product/csg.html
             icon: csg.png
-
   - category: Database
     categoryurl: https://en.wikipedia.org/wiki/Database
     subcategory: Relational Database Management Service
@@ -1101,8 +1098,8 @@ services:
             ref: https://cloud.ibm.com/catalog/services/databases-for-redis
             icon: ibmcloud.png
       - oracle:
-          - name:
-            ref:
+          - name: Oracle Database Enterprise Edition
+            ref: https://www.oracle.com/database/enterprise/
             icon: none.png
       - alibaba:
           - name: ApsaraDB for Redis
