@@ -11,9 +11,9 @@ body {
   display: grid;
   grid-template-rows: 0 1fr 0;
   grid-template-columns:
-    [full-start] minmax(1rem, 1fr)
+    [full-start] minmax(1rem, fr)
     [main-start] minmax(0, 52rem) [main-end]
-    minmax(1rem, 1fr) [full-end];
+    minmax(1rem, fr) [full-end];
 }
 
 // by default, make any new children of body to span the full track
