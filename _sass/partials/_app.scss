@@ -101,6 +101,7 @@ main {
   padding-bottom: 8rem;
   @media screen and (min-width: $screen-md-min) {
     align-content: start;
+  grid-column: full;
   }
 }
 
