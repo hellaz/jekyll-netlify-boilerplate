@@ -48,7 +48,7 @@ intro_paragraph: "[Jekyll Netlify
               <img  src="https://pbs.twimg.com/profile_images/1388165108786884619/ZnSwt6Qb_400x400.jpg" alt="Amazon AWS" width="100" class="header-img"/>
             </th>
             <th>
-              <img  src="https://pbs.twimg.com/profile_images/1268207800313774080/KF9pXfXU_400x400.jpg" alt="Microsoft Azure Log" width="100" class="header-img"/>
+              <img  src="https://pbs.twimg.com/profile_images/1268207800313774080/KF9pXfXU_400x400.jpg" alt="Microsoft Azure Cloud" width="100" class="header-img"/>
             </th>
             <th>
               <img  src="https://pbs.twimg.com/profile_images/1190319303041724417/1a61e4pu_400x400.jpg" alt="Google Cloud Platform Logo" width="100" class="header-img" />
