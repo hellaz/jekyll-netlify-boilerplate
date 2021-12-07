@@ -45,25 +45,25 @@ intro_paragraph: "[Jekyll Netlify
 	            <th style="width:7%">Category</th>
             <th style="width:10%">Service</th>
             <th>
-              <img  src="assets/img/logo/aws.png" alt="AWS Icon" class="header-img"/>
+              <img  src="assets/img/logo/aws.png" alt="Amazon AWS" width="100" class="header-img"/>
             </th>
             <th>
-              <img  src="assets/img/logo/msazure.svg" alt="Microsoft Azure Log"/>
+              <img  src="assets/img/logo/msazure.svg" alt="Microsoft Azure Log" width="100" class="header-img"/>
             </th>
             <th>
-              <img  src="assets/img/logo/google.svg" alt="Google Cloud Platform Logo" />
+              <img  src="assets/img/logo/google.svg" alt="Google Cloud Platform Logo" width="100" class="header-img" />
             </th>
             <th>
-              <img  src="assets/img/logo/IBM-Cloud-svg-lockup-color8.svg"  alt="IBM Cloud Logo" />
+              <img  src="assets/img/logo/IBM-Cloud-svg-lockup-color8.svg"  alt="IBM Cloud Logo" width="100" class="header-img" />
             </th>
             <th>
-              <img  src="assets/img/logo/oracle.png" alt="Oracle Cloud Logo"/>
+              <img  src="assets/img/logo/oracle.png" alt="Oracle Cloud Logo" width="100" class="header-img"/>
             </th>
             <th>
-              <img src="assets/img/logo/alibaba.png" alt="Alibaba Cloud Logo"/>
+              <img src="assets/img/logo/alibaba.png" alt="Alibaba Cloud Logo" width="100" class="header-img"/>
             </th>
 			<th>
-              <img  src="assets/img/logo/huawei.png" alt="Huawei Cloud"/>
+              <img  src="assets/img/logo/huawei.png" alt="Huawei Cloud" width="100" class="header-img"/>
             </th>
   </tr>
 	{% for item in site.data.cloudservices.services %}
