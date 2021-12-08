@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Welcome
+title: Public Cloud Services Index Guide
 permalink: /
 section: home
 intro_paragraph: "[Jekyll Netlify
