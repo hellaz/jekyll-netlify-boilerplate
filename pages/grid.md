@@ -43,7 +43,6 @@ intro_paragraph: "[Jekyll Netlify
 <link href="https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css" rel="stylesheet">
 <script type="text/javascript" src="https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js"></script>
 
-<div class="clusterize">
 <table id="comparison">
   <tr align="center" class="header">
 	            <th style="width:7%">Category</th>
@@ -70,15 +69,8 @@ intro_paragraph: "[Jekyll Netlify
               <img  src="https://pbs.twimg.com/profile_images/1001040049293508608/kk-AIfb4_400x400.jpg" alt="Huawei Cloud" width="100" class="header-img"/>
             </th>
   </tr>
-	    </table>
-    <div id="scrollArea" class="clusterize-scroll">
-  <div id="scrollArea" class="clusterize-scroll">
-    <table>
-      <tbody id="contentArea" class="clusterize-content">
-        <tr class="clusterize-extra-row clusterize-keep-parity"></tr>
-        <tr class="clusterize-extra-row clusterize-top-space" style="height:12345px;"></tr>
 	{% for item in site.data.cloudservices.services %}
-	<tr id="contentArea" class="clusterize-content">
+	<tr>
 		<td>{{item.category}}</td>
 		<td>{{item.subcategory}}</td>
 		<td>
@@ -149,8 +141,9 @@ intro_paragraph: "[Jekyll Netlify
 		</td>
 	</tr>
 	{% endfor %}
-<tr class="clusterize-extra-row clusterize-bottom-space" style="height:12345px;"></tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+</table>
+<script type="text/javascript">
+     TableLoader.register("table-load", function(){
+    var compare_table = new Tabulator("#comparison");
+})
+</script>
