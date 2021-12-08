@@ -1,7 +1,7 @@
 ---
 layout: grid
 title: Cloud Grid
-permalink: /
+permalink: /grid
 section: grid
 intro_paragraph: "[Jekyll Netlify
   Boilerplate](https://github.com/danurbanowicz/jekyll-netlify-boilerplate)
