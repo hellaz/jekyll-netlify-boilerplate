@@ -40,10 +40,8 @@ intro_paragraph: "[Jekyll Netlify
 <!-- Place this tag in your head or just before your close body tag. -->
 
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/clusterize.js/0.18.0/clusterize.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clusterize.js/0.18.0/clusterize.min.js"></script>
-
-
+<link href="https://unpkg.com/tabulator-tables/dist/css/tabulator.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://unpkg.com/tabulator-tables/dist/js/tabulator.min.js"></script>
 
 <div class="clusterize">
 <table id="comparison">
