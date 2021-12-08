@@ -13,18 +13,18 @@ intro_paragraph: "[Jekyll Netlify
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="follow,index">
-    <META NAME="Title" CONTENT="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
-    <META NAME="Keywords" CONTENT="AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba, AWS vs Azure, Azure vs Google">
-    <META NAME="Description" CONTENT="A detailed public cloud services comparison & mapping of Amazon AWS, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud.">
-    <META NAME="Author" CONTENT="Ilyas">
-    <META NAME="Subject" CONTENT="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
+    <META NAME="Title" CONTENT="Public Cloud Service Index Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
+    <META NAME="Keywords" CONTENT="AWS vs Azure vs Google vs IBM vs Oracle Cloud vs Alibaba, AWS vs Azure, Azure vs Google, AWS vs Oracle, Oracle vs Good,">
+    <META NAME="Description" CONTENT="A public cloud services comparison & mapping of Amazon AWS, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud.">
+    <META NAME="Author" CONTENT="NEtZ">
+    <META NAME="Subject" CONTENT="Public Cloud Service Comparison > AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
+    <meta property="og:title" content="Public Cloud Service Comparison > AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
     <meta property="og:locale" content="en_US">
     <meta property="og:description" content="A detailed public cloud services comparison & mapping of Amazon AWS, Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud.">
     <link rel="canonical" href="https://comparecloud.in/">
     <meta property="og:url" content="https://comparecloud.in/">
-    <meta property="og:site_name" content="A Public Cloud Comparison | AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
+    <meta property="og:site_name" content="Public Cloud Service Comparison > AWS vs Azure vs Google vs IBM vs Oracle vs Alibaba">
     <meta property="og:image" content="/img/Logo_small.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@">
