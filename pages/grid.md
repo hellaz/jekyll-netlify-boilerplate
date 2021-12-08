@@ -46,7 +46,6 @@ intro_paragraph: "[Jekyll Netlify
 
 
 <div class="clusterize">
-    <div id="scrollArea" class="clusterize-scroll">
 <table id="comparison">
   <tr align="center" class="header">
 	            <th style="width:7%">Category</th>
@@ -73,6 +72,13 @@ intro_paragraph: "[Jekyll Netlify
               <img  src="https://pbs.twimg.com/profile_images/1001040049293508608/kk-AIfb4_400x400.jpg" alt="Huawei Cloud" width="100" class="header-img"/>
             </th>
   </tr>
+	    </table>
+    <div id="scrollArea" class="clusterize-scroll">
+  <div id="scrollArea" class="clusterize-scroll">
+    <table>
+      <tbody id="contentArea" class="clusterize-content">
+        <tr class="clusterize-extra-row clusterize-keep-parity"></tr>
+        <tr class="clusterize-extra-row clusterize-top-space" style="height:12345px;"></tr>
 	{% for item in site.data.cloudservices.services %}
 	<tr id="contentArea" class="clusterize-content">
 		<td>{{item.category}}</td>
@@ -145,6 +151,8 @@ intro_paragraph: "[Jekyll Netlify
 		</td>
 	</tr>
 	{% endfor %}
-</table>
+<tr class="clusterize-extra-row clusterize-bottom-space" style="height:12345px;"></tr>
+      </tbody>
+    </table>
   </div>
-      </div>
+</div>
