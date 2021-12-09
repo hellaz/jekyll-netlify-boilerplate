@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Public Cloud Services Index Guide
+title: " "
 meta_description: Public Cloud Services Index Guide
 permalink: /
 section: home
