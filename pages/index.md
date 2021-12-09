@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Public Cloud Services Index Guide
+meta_description: Public Cloud Services Index Guide
 permalink: /
 section: home
 intro_paragraph: "[](https://github.com/danurbanowicz/jekyll-netlify-boilerplate)"
