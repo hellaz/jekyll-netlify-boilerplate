@@ -1,21 +1,26 @@
 ---
 layout: page
 title: About
-meta_description: |
-  This sets the meta description in the head of the page. You can watch the 
-  output in the browser or in the generated file _site/about.html.
+meta_description: Public Cloud Services Index Guide maintained by SiteZ.gr
 permalink: /about
 section: about
-intro_paragraph: |
-  This is an example of a standard Jekyll page. You can edit it with Netlify
-  CMS, accessible at `/admin/index.html` or by editing `pages/about.md` in a text editor.
+intro_paragraph: >-
+  This is a Public Cloud Services Index for major Cloud Vendor provided Services
+  in categories. The list is largely based on the work from 
+
+
+  * [ilyas-it83/CloudComparer](https://github.com/ilyas-it83/CloudComparer) at <https://comparecloud.in/>
+
+  * <https://cloudcomparer.linit.io/>
+
+  * <https://www.cloudcomparisontool.com/>
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The list is maintained for information purposes and is NOT meant as a comparison chart/material between the listed cloud providers. While we invite Experts to share feedback this index is Strictly prohibiting Personal or Employer opinions and sales pitching.
 
-### A heading
+**Notes**
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+* “None” mentioned against certain services is based on unavailability of certain direct mapping services between cloud providers
+* All the definition & benefits of services mentioned are sourced from the respective cloud providers websites and documentations.
+* Listing doesn’t include third party services offered through cloud market places or third party providers
 
-#### Another heading
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+For all enquiries or feedback feel free to contact us through the [contact form](/contact)
