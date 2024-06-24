@@ -4,7 +4,7 @@ title: " "
 meta_description: Public Cloud Services Index Guide
 permalink: /
 section: home
-intro_paragraph: >-
+intro_paragraph: >
   <script async
   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3269987799484354"
        crossorigin="anonymous"></script>
